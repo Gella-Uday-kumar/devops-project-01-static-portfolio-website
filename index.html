@@ -1,0 +1,523 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Uday Kumar | DevOps Engineer Portfolio</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ===================== -->
+<!-- NAVBAR -->
+<!-- ===================== -->
+<header class="navbar" id="navbar">
+  <div class="nav-container">
+    <a href="#home" class="logo">
+      <span class="logo-badge">UK</span>
+      <span class="logo-text">Uday's Portfolio</span>
+    </a>
+
+    <nav class="nav-links" id="navLinks">
+      <a href="#home" class="nav-link active">Home</a>
+      <a href="#about" class="nav-link">About</a>
+      <a href="#skills" class="nav-link">Skills</a>
+      <a href="#experience" class="nav-link">Experience</a>
+      <a href="#projects" class="nav-link">Projects</a>
+      <a href="#certifications" class="nav-link">Certifications</a>
+      <a href="#contact" class="nav-link">Contact</a>
+    </nav>
+
+    <div class="nav-actions">
+      <a href="https://github.com/Gella-Uday-kumar" target="_blank" rel="noopener" class="icon-btn" aria-label="GitHub">
+        <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M12 .5C5.73.5.5 5.73.5 12c0 5.08 3.29 9.39 7.86 10.91.57.1.78-.25.78-.55v-1.94c-3.2.7-3.88-1.54-3.88-1.54-.52-1.33-1.28-1.68-1.28-1.68-1.04-.71.08-.7.08-.7 1.15.08 1.76 1.18 1.76 1.18 1.02 1.75 2.68 1.25 3.34.96.1-.74.4-1.25.72-1.54-2.56-.29-5.25-1.28-5.25-5.7 0-1.26.45-2.29 1.18-3.09-.12-.29-.51-1.46.11-3.05 0 0 .96-.31 3.15 1.18a10.9 10.9 0 0 1 5.74 0c2.19-1.49 3.15-1.18 3.15-1.18.62 1.59.23 2.76.11 3.05.74.8 1.18 1.83 1.18 3.09 0 4.43-2.7 5.4-5.27 5.69.42.36.78 1.08.78 2.18v3.23c0 .3.21.66.79.55A10.51 10.51 0 0 0 23.5 12c0-6.27-5.23-11.5-11.5-11.5Z"/></svg>
+      </a>
+      <a href="https://www.linkedin.com/in/uday-kumar-612743253" target="_blank" rel="noopener" class="icon-btn" aria-label="LinkedIn">
+        <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M20.45 20.45h-3.55v-5.57c0-1.33-.02-3.03-1.85-3.03-1.85 0-2.14 1.45-2.14 2.94v5.66H9.36V9h3.41v1.56h.05c.47-.9 1.63-1.85 3.36-1.85 3.6 0 4.27 2.37 4.27 5.45v6.29ZM5.34 7.43a2.06 2.06 0 1 1 0-4.12 2.06 2.06 0 0 1 0 4.12ZM7.12 20.45H3.56V9h3.56v11.45ZM22.22 0H1.77C.8 0 0 .78 0 1.75v20.5C0 23.22.8 24 1.77 24h20.45c.98 0 1.78-.78 1.78-1.75V1.75C24 .78 23.2 0 22.22 0Z"/></svg>
+      </a>
+      <button class="icon-btn theme-toggle" id="themeToggle" aria-label="Toggle theme">
+        <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M12 4.5a1 1 0 0 1-1-1V2a1 1 0 1 1 2 0v1.5a1 1 0 0 1-1 1Zm0 15a1 1 0 0 1 1 1V22a1 1 0 1 1-2 0v-1.5a1 1 0 0 1 1-1ZM4.5 12a1 1 0 0 1-1 1H2a1 1 0 1 1 0-2h1.5a1 1 0 0 1 1 1Zm18 0a1 1 0 0 1-1 1H20a1 1 0 1 1 0-2h1.5a1 1 0 0 1 1 1ZM6.34 7.76a1 1 0 0 1-1.41 0L3.87 6.7a1 1 0 1 1 1.41-1.42l1.06 1.07a1 1 0 0 1 0 1.41Zm12.02 12.02a1 1 0 0 1-1.41 0l-1.06-1.06a1 1 0 0 1 1.41-1.42l1.06 1.06a1 1 0 0 1 0 1.42ZM6.34 16.24a1 1 0 0 1 0 1.42l-1.06 1.06a1 1 0 1 1-1.41-1.42l1.06-1.06a1 1 0 0 1 1.41 0ZM18.36 5.28a1 1 0 0 1 0 1.42l-1.06 1.06a1 1 0 1 1-1.41-1.42l1.06-1.06a1 1 0 0 1 1.41 0ZM12 7a5 5 0 1 1 0 10 5 5 0 0 1 0-10Z"/></svg>
+      </button>
+      <button class="hamburger" id="hamburger" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<!-- ===================== -->
+<!-- HOME / HERO -->
+<!-- ===================== -->
+<section id="home" class="hero">
+  <div class="hero-container">
+
+    <div class="hero-left">
+      <span class="eyebrow">✦ AWS DEVOPS ENGINEER</span>
+      <h1 class="hero-title">Hi, I'm <span class="gradient-text">Uday Kumar</span></h1>
+      <p class="hero-subtitle">DevOps Engineer | Cloud Enthusiast | Automating the Future</p>
+      <p class="hero-desc">
+        DevOps Engineer with hands-on experience in CI/CD automation, AWS, Azure,
+        Docker, Kubernetes, and Infrastructure as Code using Terraform. Passionate
+        about building reliable, scalable, and automated solutions.
+      </p>
+
+      <div class="contact-pills">
+        <a href="mailto:gellaudaykumar2329@gmail.com" class="pill">
+          <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 6h18v12H3z"/><path d="m3 7 9 6 9-6"/></svg>
+          gellaudaykumar2329@gmail.com
+        </a>
+        <a href="tel:+919078702554" class="pill">
+          <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.12.9.33 1.79.63 2.65a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.43-1.43a2 2 0 0 1 2.11-.45c.86.3 1.75.5 2.65.63A2 2 0 0 1 22 16.92Z"/></svg>
+          +91 9078702554
+        </a>
+        <a href="https://www.google.com/maps/place/Bengaluru" target="_blank" rel="noopener" class="pill">
+          <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg>
+          Bengaluru, India
+        </a>
+      </div>
+
+      <div class="hero-btns">
+        <a href="assets/Gella_Uday_Kumar_Resume.pdf" download class="btn btn-primary">
+          Download Resume
+          <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 3v12"/><path d="m7 10 5 5 5-5"/><path d="M5 21h14"/></svg>
+        </a>
+        <a href="#contact" class="btn btn-outline">
+          Contact Me
+          <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2"><path d="m22 2-7 20-4-9-9-4Z"/><path d="M22 2 11 13"/></svg>
+        </a>
+      </div>
+    </div>
+
+    <div class="hero-right">
+      <div class="orbit-icon icon-aws" title="AWS">
+        <svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor"><path d="M6.76 10.36c0 .3.03.54.09.71.07.18.15.37.27.58a.35.35 0 0 1 .05.18c0 .08-.05.16-.15.24l-.5.33a.38.38 0 0 1-.2.07c-.09 0-.17-.04-.26-.12a2.7 2.7 0 0 1-.3-.4 6.6 6.6 0 0 1-.27-.5c-.66.79-1.5 1.18-2.5 1.18-.71 0-1.29-.2-1.7-.61-.42-.4-.63-.95-.63-1.63 0-.72.25-1.3.77-1.75.51-.44 1.19-.66 2.05-.66.28 0 .58.03.9.07.3.04.62.11.96.19v-.61c0-.65-.14-1.1-.4-1.36-.28-.27-.74-.4-1.4-.4-.3 0-.6.04-.92.12-.31.07-.62.16-.92.28a2.46 2.46 0 0 1-.3.11.5.5 0 0 1-.13.03c-.12 0-.18-.09-.18-.27v-.42c0-.14.02-.24.07-.3a.7.7 0 0 1 .27-.2c.3-.16.66-.28 1.08-.39.42-.11.87-.16 1.34-.16.99 0 1.72.23 2.19.68.46.44.7 1.13.7 2.05v2.7ZM3.4 11.42c.27 0 .54-.05.84-.15.3-.1.56-.29.79-.54.14-.16.24-.35.29-.55.05-.2.08-.45.08-.73v-.35c-.25-.06-.5-.11-.77-.14-.27-.03-.53-.05-.79-.05-.56 0-.98.11-1.26.33-.28.22-.42.54-.42.96 0 .4.1.7.31.9.2.2.5.32.93.32Zm6.4.8c-.16 0-.27-.03-.34-.09-.07-.05-.13-.18-.18-.35L7.36 4.87a1.6 1.6 0 0 1-.08-.36c0-.14.07-.22.21-.22h.87c.17 0 .28.03.35.09.07.05.12.18.17.35l1.42 5.6 1.32-5.6c.04-.18.09-.3.16-.35.07-.06.19-.09.36-.09h.71c.17 0 .29.03.36.09.07.05.13.18.16.35l1.34 5.67 1.46-5.67c.05-.18.11-.3.17-.35.07-.06.18-.09.35-.09h.82c.14 0 .22.07.22.22a.9.9 0 0 1-.02.14 1.24 1.24 0 0 1-.06.22l-2.04 6.91c-.05.18-.11.3-.18.35-.07.06-.19.09-.34.09h-.76c-.17 0-.29-.03-.36-.09-.07-.06-.13-.18-.16-.36l-1.31-5.5-1.3 5.49c-.04.18-.09.3-.16.36-.07.06-.2.09-.36.09h-.76Zm10.24.2c-.44 0-.88-.05-1.3-.15-.42-.1-.75-.21-.97-.34a.61.61 0 0 1-.26-.24.6.6 0 0 1-.05-.24v-.44c0-.18.07-.27.2-.27a.5.5 0 0 1 .16.03c.06.02.14.05.24.09.32.14.68.25 1.05.32.38.07.75.11 1.13.11.6 0 1.06-.1 1.39-.31.32-.21.5-.51.5-.9 0-.26-.09-.48-.26-.66-.17-.18-.49-.34-.95-.49l-1.37-.43c-.69-.22-1.2-.54-1.51-.97-.32-.42-.48-.89-.48-1.39 0-.4.09-.75.26-1.05.17-.31.4-.57.69-.78.29-.22.63-.38 1.02-.49.4-.11.8-.16 1.24-.16.17 0 .35.01.53.04.19.02.36.05.53.09.16.03.32.07.47.12.15.05.27.1.35.15a.7.7 0 0 1 .25.21.45.45 0 0 1 .07.27v.41c0 .18-.07.27-.2.27a.9.9 0 0 1-.33-.11 4.15 4.15 0 0 0-1.68-.34c-.55 0-.98.09-1.28.28-.3.18-.45.46-.45.85 0 .26.1.49.29.67.19.19.54.36 1.04.52l1.34.42c.68.22 1.17.52 1.47.91.3.4.45.85.45 1.35 0 .41-.09.78-.26 1.1-.18.33-.42.61-.73.85-.31.24-.68.42-1.11.54-.45.13-.92.19-1.43.19Z"/></svg>
+      </div>
+      <div class="orbit-icon icon-docker" title="Docker">
+        <svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor"><path d="M22.2 9.6c-.5-.3-1.5-.5-2.3-.4-.1-.7-.5-1.3-1.1-1.8l-.4-.3-.3.4c-.4.5-.5 1.4-.4 2-.1.1-.3.1-.4.2H2.6c-.2.8-.2 3.7 1.7 5.9 1.4 1.6 3.5 2.4 6.3 2.4 5.9 0 10.3-2.7 12.3-7.7 1.4.1 2.7-.3 3.4-1.5l.2-.3-.3-.2c-.6-.4-1.7-.5-2.7-.2M6.1 11.7H4.3v1.7h1.8v-1.7Zm2.4 0H6.7v1.7h1.8v-1.7Zm2.4 0H9.1v1.7h1.8v-1.7Zm2.4 0h-1.8v1.7h1.8v-1.7Zm-7.2-2.3H4.3v1.7h1.8V9.4Zm2.4 0H6.7v1.7h1.8V9.4Zm2.4 0H9.1v1.7h1.8V9.4Zm2.4 0h-1.8v1.7h1.8V9.4Zm2.4 0h-1.8v1.7h1.8V9.4ZM8.5 7.1H6.7v1.7h1.8V7.1Zm2.4 0H9.1v1.7h1.8V7.1Zm2.4 0h-1.8v1.7h1.8V7.1Z"/></svg>
+      </div>
+      <div class="orbit-icon icon-k8s" title="Kubernetes">
+        <svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor"><path d="M12 1.5 2.5 6.7v10.6L12 22.5l9.5-5.2V6.7L12 1.5Zm0 2.3 7.2 3.9v.1l-2.5 1.1-4.7-2.4V4Zm-1 2.7v2.6L6.3 8.7l-2.5-1.1v-.1L10.9 4Zm-7.4 3.8 2.4 1v5l-1.6 2.3-.8-.4V7.8Zm1.4 8.9 1-2.6 4.9.9 1.1 2.4-1.9 2.4-5.1-3.1Zm7 3.4-1.6-2 .9-4.9h2.2l1 4.9-1.6 2.1Zm6.9-3.4-5 3.1-2-2.4 1.1-2.5 4.9-.9 1 2.7Zm.5-9.9-.8.4-1.6-2.3v-5l2.4-1v7.9Zm-3.4-8-6.3 3.2-.1-.1V6l7.1-3.8v3.6Z"/></svg>
+      </div>
+      <div class="orbit-icon icon-terraform" title="Terraform">
+        <svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor"><path d="m1.5 5.3 8.3 4.8v9.6l-8.3-4.8V5.3Zm9.3 4.8 8.3-4.8v9.6l-8.3 4.8V10.1Zm-9.3-6L9.8 4l8.3 4.8-8.3 4.8L1.5 8.9V4.1Zm12.7 14.5 8.3-4.8v9.5l-8.3 4.8v-9.5Z"/></svg>
+      </div>
+
+      <div class="photo-ring">
+        <img src="assets/images/uda.png" alt="Uday Kumar" class="profile-photo">
+      </div>
+    </div>
+
+  </div>
+
+  <!-- three info cards -->
+  <div class="info-grid">
+
+    <div class="info-card">
+      <h3><span class="card-icon">&lt;/&gt;</span> SKILLS</h3>
+      <ul class="skill-list">
+        <li>
+          <span class="skill-emoji">☁️</span>
+          <div>
+            <strong>Cloud Platforms</strong>
+            <p>AWS, Azure, Azure DevOps</p>
+          </div>
+        </li>
+        <li>
+          <span class="skill-emoji">♾️</span>
+          <div>
+            <strong>DevOps Tools</strong>
+            <p>Docker, Kubernetes, Jenkins, GitHub Actions, Azure Pipelines</p>
+          </div>
+        </li>
+        <li>
+          <span class="skill-emoji">📜</span>
+          <div>
+            <strong>Infrastructure as Code</strong>
+            <p>Terraform, Ansible (Basic)</p>
+          </div>
+        </li>
+        <li>
+          <span class="skill-emoji">📊</span>
+          <div>
+            <strong>Monitoring</strong>
+            <p>Prometheus, Grafana, CloudWatch</p>
+          </div>
+        </li>
+        <li>
+          <span class="skill-emoji">⚙️</span>
+          <div>
+            <strong>Others</strong>
+            <p>Linux, Bash, Python (Basic), Git, YAML, CI/CD</p>
+          </div>
+        </li>
+      </ul>
+    </div>
+
+    <div class="info-card">
+      <h3><span class="card-icon">💼</span> EXPERIENCE</h3>
+
+      <div class="exp-item">
+        <div class="exp-head">
+          <h4>Azure DevOps Intern</h4>
+          <span class="badge">Feb 2026 - May 2026</span>
+        </div>
+        <p class="exp-sub">NewGen Softech, Bengaluru</p>
+        <ul>
+          <li>Architected and deployed multi-stage YAML CI/CD pipelines</li>
+          <li>Implemented branch policies and release gates</li>
+          <li>Managed Azure VMs with automated deployment scripts</li>
+          <li>Recognized as Top Performer (25/25 score)</li>
+        </ul>
+      </div>
+
+      <div class="exp-item">
+        <div class="exp-head">
+          <h4>AWS Cloud &amp; DevOps Trainee</h4>
+          <span class="badge">Feb 2026 - May 2026</span>
+        </div>
+        <p class="exp-sub">Basant Technologies, Bengaluru</p>
+        <ul>
+          <li>Deployed web applications on AWS EC2</li>
+          <li>Implemented least-privilege IAM policies</li>
+          <li>Administered Linux servers and deployment workflows</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="info-card">
+      <h3><span class="card-icon">👤</span> SUMMARY</h3>
+      <p class="summary-text">
+        Results-driven DevOps Engineer with a strong foundation in cloud platforms,
+        CI/CD automation, containerization, and monitoring. Recognized for delivering
+        efficient, scalable, and secure solutions with a focus on automation and best
+        practices.
+      </p>
+
+      <div class="stat-grid">
+        <div class="stat-box">
+          <span class="stat-emoji">🏆</span>
+          <div>
+            <strong>25/25</strong>
+            <p>Top Performer Score</p>
+          </div>
+        </div>
+        <div class="stat-box">
+          <span class="stat-emoji">🚀</span>
+          <div>
+            <strong>2+</strong>
+            <p>Projects Completed</p>
+          </div>
+        </div>
+        <div class="stat-box">
+          <span class="stat-emoji">📜</span>
+          <div>
+            <strong>2</strong>
+            <p>Certifications</p>
+          </div>
+        </div>
+        <div class="stat-box">
+          <span class="stat-emoji">💻</span>
+          <div>
+            <strong>2+</strong>
+            <p>Internships</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- ===================== -->
+<!-- ABOUT -->
+<!-- ===================== -->
+<section id="about" class="section">
+  <div class="section-container">
+    <h2 class="section-title">About <span class="gradient-text">Me</span></h2>
+    <div class="about-grid">
+      <div class="about-text">
+        <p>
+          I'm a DevOps Engineer based in Bengaluru, India, focused on building reliable,
+          automated, and scalable infrastructure. My work spans CI/CD pipeline design,
+          containerization, cloud infrastructure on AWS and Azure, and Infrastructure as
+          Code using Terraform.
+        </p>
+        <p>
+          During my internships at NewGen Softech and Basant Technologies, I automated
+          deployment workflows, implemented least-privilege security policies, and set up
+          real-time monitoring with Prometheus and Grafana — earning a perfect
+          internship evaluation score of 25/25.
+        </p>
+        <p>
+          I'm currently completing my Bachelor of Engineering in Computer Science at
+          Visvesvaraya Technological University (VTU), and I'm actively looking for
+          full-time opportunities in DevOps and Cloud Engineering.
+        </p>
+      </div>
+      <div class="about-edu">
+        <div class="edu-card">
+          <h4>🎓 Education</h4>
+          <p class="edu-degree">Bachelor of Engineering – Computer Science</p>
+          <p class="edu-school">Visvesvaraya Technological University (VTU)</p>
+          <p class="edu-meta">2022 – 2026 &middot; CGPA: 7.3 / 10</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== -->
+<!-- SKILLS (detailed) -->
+<!-- ===================== -->
+<section id="skills" class="section section-alt">
+  <div class="section-container">
+    <h2 class="section-title">Technical <span class="gradient-text">Skills</span></h2>
+    <div class="skills-grid">
+      <div class="skill-tile">
+        <span class="skill-emoji big">☁️</span>
+        <h4>Cloud Platforms</h4>
+        <p>AWS (EC2, S3, IAM, CloudWatch), Microsoft Azure, Azure DevOps</p>
+      </div>
+      <div class="skill-tile">
+        <span class="skill-emoji big">♾️</span>
+        <h4>DevOps Tools</h4>
+        <p>Docker, Kubernetes, Jenkins, GitHub Actions, Azure Pipelines</p>
+      </div>
+      <div class="skill-tile">
+        <span class="skill-emoji big">📜</span>
+        <h4>Infrastructure as Code</h4>
+        <p>Terraform, Ansible (Basic)</p>
+      </div>
+      <div class="skill-tile">
+        <span class="skill-emoji big">📊</span>
+        <h4>Monitoring</h4>
+        <p>Prometheus, Grafana, CloudWatch</p>
+      </div>
+      <div class="skill-tile">
+        <span class="skill-emoji big">🐧</span>
+        <h4>Operating Systems</h4>
+        <p>Linux (Ubuntu), Bash Scripting</p>
+      </div>
+      <div class="skill-tile">
+        <span class="skill-emoji big">🔧</span>
+        <h4>Version Control</h4>
+        <p>Git, GitHub, Azure Repos</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== -->
+<!-- EXPERIENCE (detailed) -->
+<!-- ===================== -->
+<section id="experience" class="section">
+  <div class="section-container">
+    <h2 class="section-title">Work <span class="gradient-text">Experience</span></h2>
+    <div class="timeline">
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="timeline-content">
+          <div class="exp-head">
+            <h4>Azure DevOps Intern</h4>
+            <span class="badge">Feb 2026 - May 2026</span>
+          </div>
+          <p class="exp-sub">NewGen Softech, Bengaluru</p>
+          <ul>
+            <li>Architected and deployed multi-stage YAML CI/CD pipelines on Azure DevOps automating build, test, and deployment workflows</li>
+            <li>Implemented branch policies and release gates, reducing production issues by 40%</li>
+            <li>Managed Azure Virtual Machines with automated deployment scripts ensuring zero-downtime updates</li>
+            <li>Recognized as Top Performer with internship evaluation score of 25/25</li>
+          </ul>
+        </div>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="timeline-content">
+          <div class="exp-head">
+            <h4>AWS Cloud &amp; DevOps Trainee</h4>
+            <span class="badge">Feb 2026 - May 2026</span>
+          </div>
+          <p class="exp-sub">Basant Technologies, Bengaluru</p>
+          <ul>
+            <li>Deployed web applications on AWS EC2 with security groups, IAM, and network configuration</li>
+            <li>Implemented least-privilege IAM policies following cloud security best practices</li>
+            <li>Administered Linux servers, managing services, users, and deployment workflows</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== -->
+<!-- PROJECTS -->
+<!-- ===================== -->
+<section id="projects" class="section section-alt">
+  <div class="section-container">
+    <h2 class="section-title">Featured <span class="gradient-text">Projects</span></h2>
+    <div class="projects-grid">
+      <div class="project-card">
+        <div class="project-top">
+          <span class="project-icon">🚀</span>
+          <span class="badge">Apr 2026</span>
+        </div>
+        <h4>Production Grade DevOps CI/CD Pipeline</h4>
+        <p class="project-stack">Docker &middot; GitHub Actions &middot; Nginx &middot; Prometheus &middot; Grafana</p>
+        <ul>
+          <li>Built end-to-end CI/CD pipeline for a Spring Boot application using GitHub Actions</li>
+          <li>Containerized the application with Docker, deployed behind an Nginx reverse proxy</li>
+          <li>Configured Prometheus and Grafana dashboards for real-time monitoring and alerting</li>
+          <li>Reduced deployment time from 2 hours to 20 minutes (90% improvement)</li>
+        </ul>
+      </div>
+
+      <div class="project-card">
+        <div class="project-top">
+          <span class="project-icon">🏗️</span>
+          <span class="badge">Mar 2026</span>
+        </div>
+        <h4>AWS Infrastructure Automation with Terraform</h4>
+        <p class="project-stack">Terraform &middot; AWS EC2 &middot; IAM</p>
+        <ul>
+          <li>Created reusable Terraform modules for EC2 and IAM resource provisioning</li>
+          <li>Automated infrastructure setup, reducing manual time from 4 hours to 15 minutes</li>
+          <li>Implemented Infrastructure as Code best practices for reproducible deployments</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== -->
+<!-- CERTIFICATIONS -->
+<!-- ===================== -->
+<section id="certifications" class="section">
+  <div class="section-container">
+    <h2 class="section-title">Certifications</h2>
+    <div class="cert-grid">
+      <div class="cert-card" onclick="openCert('image','assets/images/NST.png')" style="cursor:pointer">
+        <span class="cert-icon">📜</span>
+        <h4>DevOps Internship Certificate</h4>
+        <p>NewGen Softech &middot; 2026</p>
+      </div>
+      <div class="cert-card" onclick="openCert('pdf','assets/images/B.T.pdf')" style="cursor:pointer">
+        <span class="cert-icon">📜</span>
+        <h4>DevOps Trainee</h4>
+        <p>Basant Technologies &middot; 2026</p>
+      </div>
+    </div>
+
+    <!-- Cert Modal -->
+    <div id="certModal" style="display:none;position:fixed;inset:0;background:rgba(0,0,0,0.85);z-index:9999;align-items:center;justify-content:center;">
+      <div style="position:relative;max-width:90vw;max-height:90vh;">
+        <button onclick="closeCert()" style="position:absolute;top:-14px;right:-14px;width:32px;height:32px;border-radius:50%;background:#a855f7;color:#fff;font-size:18px;display:flex;align-items:center;justify-content:center;cursor:pointer;border:none;">✕</button>
+        <img id="certImg" src="" alt="Certificate" style="max-width:90vw;max-height:85vh;border-radius:12px;display:none;">
+        <iframe id="certPdf" src="" style="width:80vw;height:85vh;border-radius:12px;border:none;display:none;"></iframe>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== -->
+<!-- CONTACT -->
+<!-- ===================== -->
+<section id="contact" class="section section-alt">
+  <div class="section-container">
+    <h2 class="section-title">Get In <span class="gradient-text">Touch</span></h2>
+    <div class="contact-grid">
+      <div class="contact-info">
+        <a href="mailto:gellaudaykumar2329@gmail.com" class="contact-line">
+          <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 6h18v12H3z"/><path d="m3 7 9 6 9-6"/></svg>
+          gellaudaykumar2329@gmail.com
+        </a>
+        <a href="tel:+919078702554" class="contact-line">
+          <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.12.9.33 1.79.63 2.65a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.43-1.43a2 2 0 0 1 2.11-.45c.86.3 1.75.5 2.65.63A2 2 0 0 1 22 16.92Z"/></svg>
+          +91 9078702554
+        </a>
+        <a href="https://www.linkedin.com/in/uday-kumar-612743253" target="_blank" rel="noopener" class="contact-line">
+          <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor"><path d="M20.45 20.45h-3.55v-5.57c0-1.33-.02-3.03-1.85-3.03-1.85 0-2.14 1.45-2.14 2.94v5.66H9.36V9h3.41v1.56h.05c.47-.9 1.63-1.85 3.36-1.85 3.6 0 4.27 2.37 4.27 5.45v6.29ZM5.34 7.43a2.06 2.06 0 1 1 0-4.12 2.06 2.06 0 0 1 0 4.12ZM7.12 20.45H3.56V9h3.56v11.45ZM22.22 0H1.77C.8 0 0 .78 0 1.75v20.5C0 23.22.8 24 1.77 24h20.45c.98 0 1.78-.78 1.78-1.75V1.75C24 .78 23.2 0 22.22 0Z"/></svg>
+          linkedin.com/in/uday-kumar-612743253
+        </a>
+        <a href="https://github.com/Gella-Uday-kumar" target="_blank" rel="noopener" class="contact-line">
+          <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor"><path d="M12 .5C5.73.5.5 5.73.5 12c0 5.08 3.29 9.39 7.86 10.91.57.1.78-.25.78-.55v-1.94c-3.2.7-3.88-1.54-3.88-1.54-.52-1.33-1.28-1.68-1.28-1.68-1.04-.71.08-.7.08-.7 1.15.08 1.76 1.18 1.76 1.18 1.02 1.75 2.68 1.25 3.34.96.1-.74.4-1.25.72-1.54-2.56-.29-5.25-1.28-5.25-5.7 0-1.26.45-2.29 1.18-3.09-.12-.29-.51-1.46.11-3.05 0 0 .96-.31 3.15 1.18a10.9 10.9 0 0 1 5.74 0c2.19-1.49 3.15-1.18 3.15-1.18.62 1.59.23 2.76.11 3.05.74.8 1.18 1.83 1.18 3.09 0 4.43-2.7 5.4-5.27 5.69.42.36.78 1.08.78 2.18v3.23c0 .3.21.66.79.55A10.51 10.51 0 0 0 23.5 12c0-6.27-5.23-11.5-11.5-11.5Z"/></svg>
+          github.com/Gella-Uday-kumar
+        </a>
+        <a href="https://www.google.com/maps/place/Bengaluru" target="_blank" rel="noopener" class="contact-line">
+          <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg>
+          Bengaluru, India
+        </a>
+      </div>
+
+      <form class="contact-form" id="contactForm">
+        <input type="text" placeholder="Your Name" required>
+        <input type="email" placeholder="Your Email" required>
+        <textarea rows="5" placeholder="Your Message" required></textarea>
+        <button type="submit" class="btn btn-primary full">Send Message</button>
+        <p class="form-note" id="formNote"></p>
+      </form>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== -->
+<!-- FOOTER CTA -->
+<!-- ===================== -->
+<footer class="footer-cta">
+  <div class="footer-container">
+    <h3 class="footer-heading">Let's build something <span class="gradient-text">amazing</span> together! 🚀</h3>
+
+    <div class="footer-info">
+      <div class="footer-item">
+        <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
+        <span>Available for<br>Full-time Opportunities</span>
+      </div>
+      <div class="footer-item">
+        <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2"><path d="m12 2 2.4 7.2H22l-6 4.6 2.3 7.2L12 16.4l-6.3 4.6 2.3-7.2-6-4.6h7.6z"/></svg>
+        <span>Open to work in<br>On-site / Remote</span>
+      </div>
+      <div class="footer-item">
+        <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 3v18h18"/><path d="m19 9-5 5-4-4-4 4"/></svg>
+        <span>Let's connect and<br>create impact</span>
+      </div>
+    </div>
+
+    <a href="#contact" class="btn btn-primary">Click Here to Connect
+      <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+    </a>
+  </div>
+  <p class="footer-copy">© 2026 Uday Kumar. All rights reserved.</p>
+</footer>
+
+<button id="backToTop" class="back-to-top" aria-label="Back to top">
+  <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 19V5"/><path d="m5 12 7-7 7 7"/></svg>
+</button>
+
+<script>
+function openCert(type, src) {
+  const modal = document.getElementById('certModal');
+  const img = document.getElementById('certImg');
+  const pdf = document.getElementById('certPdf');
+  if (type === 'image') {
+    img.src = src; img.style.display = 'block';
+    pdf.src = ''; pdf.style.display = 'none';
+  } else {
+    pdf.src = src; pdf.style.display = 'block';
+    img.src = ''; img.style.display = 'none';
+  }
+  modal.style.display = 'flex';
+}
+function closeCert() {
+  const modal = document.getElementById('certModal');
+  modal.style.display = 'none';
+  document.getElementById('certImg').src = '';
+  document.getElementById('certPdf').src = '';
+}
+document.getElementById('certModal').addEventListener('click', function(e) {
+  if (e.target === this) closeCert();
+});
+</script>
+<script src="script.js"></script>
+</body>
+</html>
