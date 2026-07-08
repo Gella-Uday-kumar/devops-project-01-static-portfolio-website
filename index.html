@@ -395,6 +395,24 @@
           <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor"><path d="M12 .5C5.73.5.5 5.73.5 12c0 5.08 3.29 9.39 7.86 10.91.57.1.78-.25.78-.55v-1.94c-3.2.7-3.88-1.54-3.88-1.54-.52-1.33-1.28-1.68-1.28-1.68-1.04-.71.08-.7.08-.7 1.15.08 1.76 1.18 1.76 1.18 1.02 1.75 2.68 1.25 3.34.96.1-.74.4-1.25.72-1.54-2.56-.29-5.25-1.28-5.25-5.7 0-1.26.45-2.29 1.18-3.09-.12-.29-.51-1.46.11-3.05 0 0 .96-.31 3.15 1.18a10.9 10.9 0 0 1 5.74 0c2.19-1.49 3.15-1.18 3.15-1.18.62 1.59.23 2.76.11 3.05.74.8 1.18 1.83 1.18 3.09 0 4.43-2.7 5.4-5.27 5.69.42.36.78 1.08.78 2.18v3.23c0 .3.21.66.79.55A10.51 10.51 0 0 0 23.5 12c0-6.27-5.23-11.5-11.5-11.5Z"/></svg>
         </a>
       </div>
+      <div class="project-card">
+        <div class="project-top">
+          <span class="project-icon">⚙️</span>
+          <span class="badge">Apr 2026</span>
+        </div>
+        <h4>Portfolio CI/CD Pipeline — Self-Healing Deployment</h4>
+        <p class="project-stack">Jenkins &middot; AWS EC2 &middot; Nginx &middot; Bash &middot; Let's Encrypt &middot; GitHub Webhooks</p>
+        <ul>
+          <li>Built a production-style push-to-deploy pipeline — every <code>git push</code> triggers Jenkins via GitHub webhook, backs up, deploys, and verifies the live site automatically</li>
+          <li>Implemented HTTP health check gate with auto-rollback to last timestamped backup on verification failure</li>
+          <li>Secured with HTTPS (Let's Encrypt), SSH key-only auth, scoped <code>sudo</code> for Jenkins, and CSRF protection</li>
+          <li>Resolved real production constraints: resized EBS volume, added swap, and enforced backup rotation to prevent disk exhaustion</li>
+        </ul>
+        <a href="https://github.com/Gella-Uday-kumar/devops-project-01-portfolio-cicd-pipeline" target="_blank" rel="noopener" class="btn btn-outline" style="margin-top:16px;">
+          View Repository
+          <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor"><path d="M12 .5C5.73.5.5 5.73.5 12c0 5.08 3.29 9.39 7.86 10.91.57.1.78-.25.78-.55v-1.94c-3.2.7-3.88-1.54-3.88-1.54-.52-1.33-1.28-1.68-1.28-1.68-1.04-.71.08-.7.08-.7 1.15.08 1.76 1.18 1.76 1.18 1.02 1.75 2.68 1.25 3.34.96.1-.74.4-1.25.72-1.54-2.56-.29-5.25-1.28-5.25-5.7 0-1.26.45-2.29 1.18-3.09-.12-.29-.51-1.46.11-3.05 0 0 .96-.31 3.15 1.18a10.9 10.9 0 0 1 5.74 0c2.19-1.49 3.15-1.18 3.15-1.18.62 1.59.23 2.76.11 3.05.74.8 1.18 1.83 1.18 3.09 0 4.43-2.7 5.4-5.27 5.69.42.36.78 1.08.78 2.18v3.23c0 .3.21.66.79.55A10.51 10.51 0 0 0 23.5 12c0-6.27-5.23-11.5-11.5-11.5Z"/></svg>
+        </a>
+      </div>
     </div>
   </div>
 </section>
