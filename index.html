@@ -358,7 +358,13 @@
   <div class="section-container">
     <h2 class="section-title">Featured <span class="gradient-text">Projects</span></h2>
     <div class="projects-grid">
-      <div class="project-card">
+
+      <!-- Project 1 -->
+      <div class="project-card" onclick="openProjectImg('assets/images/DevOps pl.png','Production Grade DevOps CI/CD Pipeline')" style="cursor:pointer">
+        <div class="project-thumb">
+          <img src="assets/images/DevOps pl.png" alt="DevOps CI/CD Pipeline Architecture">
+          <span class="thumb-overlay">🔍 View Architecture</span>
+        </div>
         <div class="project-top">
           <span class="project-icon">🚀</span>
           <span class="badge">Apr 2026</span>
@@ -371,13 +377,18 @@
           <li>Configured Prometheus and Grafana dashboards for real-time monitoring and alerting</li>
           <li>Reduced deployment time from 2 hours to 20 minutes (90% improvement)</li>
         </ul>
-        <a href="https://github.com/Gella-Uday-kumar/Dev-proj" target="_blank" rel="noopener" class="btn btn-outline" style="margin-top:16px;">
+        <a href="https://github.com/Gella-Uday-kumar/Dev-proj" target="_blank" rel="noopener" class="btn btn-outline" style="margin-top:16px;" onclick="event.stopPropagation()">
           View Repository
           <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor"><path d="M12 .5C5.73.5.5 5.73.5 12c0 5.08 3.29 9.39 7.86 10.91.57.1.78-.25.78-.55v-1.94c-3.2.7-3.88-1.54-3.88-1.54-.52-1.33-1.28-1.68-1.28-1.68-1.04-.71.08-.7.08-.7 1.15.08 1.76 1.18 1.76 1.18 1.02 1.75 2.68 1.25 3.34.96.1-.74.4-1.25.72-1.54-2.56-.29-5.25-1.28-5.25-5.7 0-1.26.45-2.29 1.18-3.09-.12-.29-.51-1.46.11-3.05 0 0 .96-.31 3.15 1.18a10.9 10.9 0 0 1 5.74 0c2.19-1.49 3.15-1.18 3.15-1.18.62 1.59.23 2.76.11 3.05.74.8 1.18 1.83 1.18 3.09 0 4.43-2.7 5.4-5.27 5.69.42.36.78 1.08.78 2.18v3.23c0 .3.21.66.79.55A10.51 10.51 0 0 0 23.5 12c0-6.27-5.23-11.5-11.5-11.5Z"/></svg>
         </a>
       </div>
 
-      <div class="project-card">
+      <!-- Project 2 -->
+      <div class="project-card" onclick="openProjectImg('assets/images/Docker.png','Dockerized Node.js Application on AWS EC2')" style="cursor:pointer">
+        <div class="project-thumb">
+          <img src="assets/images/Docker.png" alt="Docker Architecture">
+          <span class="thumb-overlay">🔍 View Architecture</span>
+        </div>
         <div class="project-top">
           <span class="project-icon">🐳</span>
           <span class="badge">Mar 2026</span>
@@ -390,12 +401,18 @@
           <li>Managed full Docker lifecycle — build, run, stop, and remove containers on EC2</li>
           <li>Pushed source code to GitHub and cloned directly onto EC2 for streamlined deployment</li>
         </ul>
-        <a href="https://github.com/Gella-Uday-kumar/devops-project-02-docker" target="_blank" rel="noopener" class="btn btn-outline" style="margin-top:16px;">
+        <a href="https://github.com/Gella-Uday-kumar/devops-project-02-docker" target="_blank" rel="noopener" class="btn btn-outline" style="margin-top:16px;" onclick="event.stopPropagation()">
           View Repository
           <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor"><path d="M12 .5C5.73.5.5 5.73.5 12c0 5.08 3.29 9.39 7.86 10.91.57.1.78-.25.78-.55v-1.94c-3.2.7-3.88-1.54-3.88-1.54-.52-1.33-1.28-1.68-1.28-1.68-1.04-.71.08-.7.08-.7 1.15.08 1.76 1.18 1.76 1.18 1.02 1.75 2.68 1.25 3.34.96.1-.74.4-1.25.72-1.54-2.56-.29-5.25-1.28-5.25-5.7 0-1.26.45-2.29 1.18-3.09-.12-.29-.51-1.46.11-3.05 0 0 .96-.31 3.15 1.18a10.9 10.9 0 0 1 5.74 0c2.19-1.49 3.15-1.18 3.15-1.18.62 1.59.23 2.76.11 3.05.74.8 1.18 1.83 1.18 3.09 0 4.43-2.7 5.4-5.27 5.69.42.36.78 1.08.78 2.18v3.23c0 .3.21.66.79.55A10.51 10.51 0 0 0 23.5 12c0-6.27-5.23-11.5-11.5-11.5Z"/></svg>
         </a>
       </div>
-      <div class="project-card">
+
+      <!-- Project 3 -->
+      <div class="project-card" onclick="openProjectImg('assets/images/CI-CD.png','Portfolio CI/CD Pipeline — Self-Healing Deployment')" style="cursor:pointer">
+        <div class="project-thumb">
+          <img src="assets/images/CI-CD.png" alt="CI/CD Pipeline Architecture">
+          <span class="thumb-overlay">🔍 View Architecture</span>
+        </div>
         <div class="project-top">
           <span class="project-icon">⚙️</span>
           <span class="badge">Apr 2026</span>
@@ -408,10 +425,20 @@
           <li>Secured with HTTPS (Let's Encrypt), SSH key-only auth, scoped <code>sudo</code> for Jenkins, and CSRF protection</li>
           <li>Resolved real production constraints: resized EBS volume, added swap, and enforced backup rotation to prevent disk exhaustion</li>
         </ul>
-        <a href="https://github.com/Gella-Uday-kumar/devops-project-01-portfolio-cicd-pipeline" target="_blank" rel="noopener" class="btn btn-outline" style="margin-top:16px;">
+        <a href="https://github.com/Gella-Uday-kumar/devops-project-01-portfolio-cicd-pipeline" target="_blank" rel="noopener" class="btn btn-outline" style="margin-top:16px;" onclick="event.stopPropagation()">
           View Repository
           <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor"><path d="M12 .5C5.73.5.5 5.73.5 12c0 5.08 3.29 9.39 7.86 10.91.57.1.78-.25.78-.55v-1.94c-3.2.7-3.88-1.54-3.88-1.54-.52-1.33-1.28-1.68-1.28-1.68-1.04-.71.08-.7.08-.7 1.15.08 1.76 1.18 1.76 1.18 1.02 1.75 2.68 1.25 3.34.96.1-.74.4-1.25.72-1.54-2.56-.29-5.25-1.28-5.25-5.7 0-1.26.45-2.29 1.18-3.09-.12-.29-.51-1.46.11-3.05 0 0 .96-.31 3.15 1.18a10.9 10.9 0 0 1 5.74 0c2.19-1.49 3.15-1.18 3.15-1.18.62 1.59.23 2.76.11 3.05.74.8 1.18 1.83 1.18 3.09 0 4.43-2.7 5.4-5.27 5.69.42.36.78 1.08.78 2.18v3.23c0 .3.21.66.79.55A10.51 10.51 0 0 0 23.5 12c0-6.27-5.23-11.5-11.5-11.5Z"/></svg>
         </a>
+      </div>
+
+    </div>
+
+    <!-- Project Image Modal -->
+    <div id="projectImgModal" style="display:none;position:fixed;inset:0;background:rgba(0,0,0,0.9);z-index:9999;align-items:center;justify-content:center;flex-direction:column;gap:12px;" onclick="closeProjectImg()">
+      <p id="projectImgTitle" style="color:#fff;font-size:1rem;font-weight:600;text-align:center;padding:0 16px;"></p>
+      <div style="position:relative;" onclick="event.stopPropagation()">
+        <button onclick="closeProjectImg()" style="position:absolute;top:-14px;right:-14px;width:32px;height:32px;border-radius:50%;background:#a855f7;color:#fff;font-size:18px;display:flex;align-items:center;justify-content:center;cursor:pointer;border:none;z-index:1;">✕</button>
+        <img id="projectImgSrc" src="" alt="Project Architecture" style="max-width:90vw;max-height:80vh;border-radius:12px;display:block;">
       </div>
     </div>
   </div>
@@ -521,6 +548,20 @@
   <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 19V5"/><path d="m5 12 7-7 7 7"/></svg>
 </button>
 
+<script>
+function openProjectImg(src, title) {
+  document.getElementById('projectImgSrc').src = src;
+  document.getElementById('projectImgTitle').textContent = title + ' — Architecture';
+  document.getElementById('projectImgModal').style.display = 'flex';
+}
+function closeProjectImg() {
+  document.getElementById('projectImgModal').style.display = 'none';
+  document.getElementById('projectImgSrc').src = '';
+}
+document.addEventListener('keydown', function(e) {
+  if (e.key === 'Escape') closeProjectImg();
+});
+</script>
 <script>
 function openCert(type, src) {
   const modal = document.getElementById('certModal');

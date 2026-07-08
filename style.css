@@ -626,3 +626,42 @@ body.light-theme .stat-box { background: rgba(0,0,0,0.02); }
   .footer-container { flex-direction: column; text-align: center; }
   .footer-info { justify-content: center; }
 }
+
+/* ── Project Architecture Thumbnail ── */
+.project-thumb {
+  position: relative;
+  width: 100%;
+  height: 160px;
+  overflow: hidden;
+  border-radius: 10px;
+  margin-bottom: 16px;
+  background: #0f0f0f;
+}
+.project-thumb img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.35s ease, filter 0.35s ease;
+  filter: brightness(0.85);
+}
+.project-card:hover .project-thumb img {
+  transform: scale(1.05);
+  filter: brightness(0.55);
+}
+.thumb-overlay {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-size: 0.85rem;
+  font-weight: 600;
+  letter-spacing: 0.03em;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  pointer-events: none;
+}
+.project-card:hover .thumb-overlay {
+  opacity: 1;
+}
