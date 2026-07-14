@@ -786,3 +786,15 @@ body.light-theme .stat-box { background: rgba(0,0,0,0.02); }
   .freelance-grid { grid-template-columns: 1fr; }
   .freelance-platforms { flex-direction: column; align-items: center; }
 }
+
+/* ── Contact info-only layout ── */
+.contact-info-only {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+@media (max-width: 768px) {
+  .contact-info-only { grid-template-columns: 1fr; }
+}
